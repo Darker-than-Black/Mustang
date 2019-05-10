@@ -1,0 +1,20 @@
+*, a {
+	font-size: 1em;
+	color: #000;
+	font-family: 'NotoSans', sans-serif;
+	font-weight: bold;
+}
+a{
+	&:hover {
+		color: #000;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+// main {
+	// height: 70vh;
+// }

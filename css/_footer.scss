@@ -1,0 +1,23 @@
+.footer {
+	&__fixed {
+	    position: fixed;
+	    bottom: 0;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, 0);
+	}
+	> .row {
+	    width: calc(65% + 30px);
+    	margin: 0 auto;
+		> .col-12 {
+			// padding: 1em 15px;
+			&:last-child {
+			    padding-left: calc(10vw - 10px);	
+			}
+		}
+	}
+	p, a {
+		display: inline-block;
+		margin: .5em 0;
+	}
+}
