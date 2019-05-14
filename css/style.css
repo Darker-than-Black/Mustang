@@ -223,7 +223,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 41%;
+  width: 45%;
   margin: 0 auto;
   padding-left: 0;
 }
@@ -289,7 +289,7 @@ img {
 }
 @media screen and (max-width: 1400px) {
   .instruments {
-    max-width: 55%;
+    max-width: 50%;
   }
 }
 @media screen and (max-width: 768px) {
