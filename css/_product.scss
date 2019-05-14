@@ -17,7 +17,9 @@
 	}
 	&__advantages {
 		// margin: 2em auto;
-		&--img {}
+		&--img {
+			margin: 1em 0;
+		}
 	}
 	&__used {
 		.col-12 {
@@ -25,6 +27,9 @@
 			    display: flex;
 			    align-items: center;
 			    padding: 0 4em 0 3em;
+			    @media screen and (max-width: 1024px) {
+			    	padding: 1.25em .25em;
+			    }
 			}
 		}
 	}
@@ -58,9 +63,35 @@
 		}
 	}
 	&__colors {
+		list-style: none;
+		display: flex;
+	    flex-wrap: wrap;
+	    align-items: center;
+	    // justify-content: center;
+
+        width: 41%;
+	    margin: 0 auto;
+	    padding-left: 0;
+		li {
+			display: inline-flex;
+		    align-items: center;
+		    margin: .75em;
+			span {
+				margin: .25em;
+			}
+		}
 		&--color {
-			width: 2em;
-			height: 2em;
+			width: 1.5em;
+			height: 1.5em;
+			&.multi {
+				display: flex;
+				flex-wrap: wrap;
+				> * {
+					width: .75em;
+					height: .75em;
+					// display: inline-block;
+				}
+			}
 		}
 	}
 }
