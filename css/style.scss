@@ -2,10 +2,15 @@
 @import 'basic';
 @import "header";
 @import "footer";
+@import "_product.scss";
 
 .instruments {
+	object-fit: cover;
 	@media screen and (max-width: 1400px) {
-		max-width: 60%;
+		max-width: 55%;
+	}
+	@media screen and (max-width: 768px) {
+		max-width: 90%;
 	}
 }
 .range {
@@ -17,7 +22,9 @@
 	&:first-child {
 		>.row {
 			.product {
-			    padding-left: 37%;
+				@media screen and (min-width: 1024px) {
+			    	padding-left: 37%;
+			    }
 			}
 		}
 	}
@@ -38,7 +45,8 @@
 		    @media screen and (max-width: 992px) {
 		    	min-height: 4em;
 		    }
-			&:not(:last-child) {
+			&:not(:last-child),
+			&:not(:nth-last-child(2)) {
 				border-bottom: 1px solid #000;
 			}
 		}
@@ -46,11 +54,13 @@
 }
 .products > .row,
 .navigation > .row {
-	height: 70vh;
+	@media screen and (min-width: 1024px) {
+		height: 70vh;
+	}
 }
 .b-left {
 	border-left: 1px solid #000;
-	 @media screen and (max-width: 992px) {
+	 @media screen and (max-width: 767px) {
 	 	border-left: none;
 	 	> .col-12 {
 	 		&:first-child {
@@ -69,42 +79,62 @@
 .sidebar {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
-	position: fixed;
-    width: 100%;
-    height: 7vh;
-    margin-top: -7vh;
+	// position: fixed;
+    // width: 100%;
+    // height: 7vh;
+    // margin-top: -7vh;
 	ul {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
 		display: flex;
 		flex-wrap: wrap;
-		width: 65%;
 	    margin: 0 auto;
-	    justify-content: space-between;
+        justify-content: space-around;
+        @media screen and (min-width: 768px) {
+			width: 66%;
+        }
+	    @media screen and (min-width: 1400px) {
+	    	justify-content: space-between;
+	    }
 		li {
 			display: inline-block;
 			margin: 1.5em .5em;
 		}
 	}
 }
+.o-hidden {
+	@media screen and (min-width: 1200px) {
+		overflow: hidden;
+	}
+}
 .range {
+	@media screen and (min-width: 1200px) {
+	    height: 70vh;
+    	overflow: auto;
+	}
 	>.row {
 		&:last-child {
-			height: 63vh;
-		    margin-top: 7vh;
-		    overflow: auto;
+			// height: 63vh;
+		    // margin-top: 7vh;
+		    // overflow: auto;
 		    .row {
 		    	height: auto;
 		    }
 		}
 	}
+	li {
+		@media screen and (max-width: 767px) {
+		    text-align: center;
+		}
+	}
 }
 .fixed_height {
-	height: 15vh;
-    display: flex;
-    // justify-content: center;s
+	display: flex;
     align-items: center;
+	@media screen and (min-width: 1024px) {
+		height: 15vh;
+	}
 }
 
 .overflowHidden {
