@@ -1,0 +1,48 @@
+.slide-title {
+  margin-bottom: .75em;
+}
+.slide-text {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+.slide-price {
+  font-size: 2em;
+  margin: 1.25em 0;
+}
+.slide-price sup {
+  font-size: .65em;
+}
+.slide-img {
+  max-width: 75%;
+}
+.slide .row {
+  min-height: 80vh;
+}
+
+.main-slider {
+  position: relative;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: 1.5em;
+}
+
+.dot {
+  width: 1.5em;
+  height: 1.5em;
+  outline: none;
+  border: 1px solid #000;
+  background-color: transparent;
+  border-radius: .75em;
+  margin: .5em;
+}
+.dot-active {
+  background-color: #000;
+}
+
+/*# sourceMappingURL=main_slider.css.map */

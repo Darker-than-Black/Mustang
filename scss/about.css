@@ -1,0 +1,24 @@
+.about-text {
+  padding: 2em 0;
+}
+.about-text ul {
+  padding-left: 15px;
+}
+.about-graph {
+  padding: 5em 15%;
+}
+.about-slider .slide .row {
+  min-height: auto;
+}
+.about-slider .slide-text {
+  font-size: 1em;
+  margin: 1em 0;
+}
+.about-slider .slide-img {
+  max-width: 100%;
+}
+.about-slider .dots {
+  left: 25%;
+}
+
+/*# sourceMappingURL=about.css.map */

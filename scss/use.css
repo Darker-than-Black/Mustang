@@ -1,0 +1,116 @@
+.use {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.use-description > .row {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.use-video .video {
+  height: 500px;
+  background-color: var(--purple);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.use-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5em 2em;
+}
+.use-info-title {
+  font-weight: bold;
+}
+.use-info-list {
+  padding-left: 15px;
+}
+.use-info-text {
+  margin: 0;
+  line-height: 1.25em;
+}
+.use-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.use-link {
+  font-size: 1em;
+  color: #fff !important;
+  background: #000;
+  padding: .75em 1.25em;
+  border-radius: 1.25em;
+  font-size: .85em;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+.use-link:hover {
+  background-color: var(--blue);
+  text-decoration: none;
+}
+.use-wallpeper img {
+  height: 100%;
+}
+
+.submenu-title {
+  font-weight: bold;
+  margin: 1.25em 0;
+}
+.submenu-nav {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 .75em;
+  padding: .5em 0;
+}
+.submenu-nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+.submenu-nav ul li {
+  padding: .25em 0s;
+}
+.submenu-nav ul a {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #000;
+}
+.submenu-nav ul a:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+.submenu-search {
+  margin-top: 3em;
+}
+.submenu-search > * {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin: 0;
+}
+.submenu-search button svg {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+/*# sourceMappingURL=use.css.map */

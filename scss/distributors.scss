@@ -1,0 +1,38 @@
+.distributors {
+	&-item {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		min-height: 80vh;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		&:hover {
+			background-image: url('../img/distributors/2-layers.jpg');		
+			.distributors {
+				&-img {
+					display: none;
+					&-hover {
+						display: inline-block;
+					}
+				}
+				&-title {
+					color: #fff;
+					font-weight: bold;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	&-title {
+		line-height: 1.5em;
+		font-size: 1.25em;
+		text-decoration: none;
+		margin-bottom: 50%;
+	}
+	&-img {
+		margin-top: 50%;
+		&-hover {
+			margin-top: 50%;
+			display: none;
+		}
+	}
+}

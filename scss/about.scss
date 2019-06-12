@@ -1,0 +1,28 @@
+.about {
+	&-text {
+		padding: 2em 0;
+		ul {
+			padding-left: 15px;
+		}
+	}
+	&-graph {
+		padding:5em 15%;
+	}
+	&-slider {
+		.slide {
+			.row {
+				min-height: auto;
+			}
+			&-text {
+				font-size: 1em;
+				margin: 1em 0;
+			}
+			&-img {
+				max-width: 100%;
+			}
+		}
+		.dots {
+			left: 25%;
+		}
+	}
+}

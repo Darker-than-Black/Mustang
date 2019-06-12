@@ -1,0 +1,47 @@
+.slide {
+	&-title {
+		margin-bottom: .75em;
+	}
+	&-text {
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+	&-price {
+		font-size: 2em;
+		margin: 1.25em 0;
+		sup {
+			font-size: .65em;
+		}
+	}
+	&-img {
+		max-width: 75%;
+	}
+	.row {
+		min-height: 80vh;
+	}
+}
+
+.main-slider {
+	position: relative;
+}
+
+.dots {
+	position: absolute;
+  	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    bottom: 1.5em;
+}
+
+.dot {
+	width: 1.5em;
+	height: 1.5em;
+	outline: none;
+	border: 1px solid #000;
+	background-color: transparent;
+	border-radius: .75em;
+	margin: .5em;
+	&-active {
+		background-color: #000;
+	}
+}

@@ -1,0 +1,41 @@
+header {}
+.navbar {
+	&-brand {
+		img {
+			max-width: 65%;
+			margin: 1em 0;
+		}
+	}
+}
+
+.btn {
+	&-search {
+		border: none;
+		background-color: transparent;
+		outline: none;
+		color: #000;
+		transform: scale(-1, 1);
+	}
+}
+
+.nav {
+	&-item {
+		margin: .75em;
+		&.active {
+			a {
+				font-weight: bold;
+			}
+		}
+		&:hover {
+			a {
+				color: var(--blue) !important;
+			}
+		}
+	}
+	&-link {
+		font-size: 1em;
+		font-weight: 400;
+		letter-spacing: 0.72px;
+		text-transform: uppercase;
+	}
+}
