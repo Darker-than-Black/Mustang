@@ -1,0 +1,15 @@
+.shares {
+	&-item {
+		@media screen and (min-width: 1024px) {
+			width: 60%;
+		}
+	}
+	&-text {
+	}
+	&-br {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		@media screen and (min-width: 1024px) {
+			width: 60%;
+		}
+	}
+}

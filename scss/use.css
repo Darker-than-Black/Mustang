@@ -7,27 +7,14 @@
 .use-video .video {
   height: 500px;
   background-color: var(--purple);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .use-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 1.5em 2em;
 }
 .use-info-title {
@@ -41,19 +28,10 @@
   line-height: 1.25em;
 }
 .use-product {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .use-link {
   font-size: 1em;
@@ -62,7 +40,6 @@
   padding: .75em 1.25em;
   border-radius: 1.25em;
   font-size: .85em;
-  -webkit-transition: .5s all;
   transition: .5s all;
 }
 .use-link:hover {
@@ -71,6 +48,14 @@
 }
 .use-wallpeper img {
   height: 100%;
+}
+.use-active {
+  margin-left: 1em;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.use-active a {
+  font-weight: bold !important;
 }
 
 .submenu-title {
@@ -109,8 +94,7 @@
   margin: 0;
 }
 .submenu-search button svg {
-  -webkit-transform: scale(-1, 1);
-          transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 /*# sourceMappingURL=use.css.map */

@@ -15,7 +15,7 @@
 		}
 	}
 	&-info {
-	   	 display: flex;
+	   	display: flex;
     	flex-direction: column;
     	justify-content: center;
 		padding: 1.5em 2em;
@@ -35,7 +35,6 @@
 	    flex-direction: column;
 	    align-items: center;
 	    justify-content: space-evenly;
-
 	}
 	&-link {
 		font-size: 1em;
@@ -53,6 +52,14 @@
 	&-wallpeper {
 		img {
 			height: 100%;
+		}
+	}
+	&-active {
+		margin-left: 1em;
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+		a {
+			font-weight: bold !important;
 		}
 	}
 }

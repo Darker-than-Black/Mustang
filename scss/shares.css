@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) {
+  .shares-item {
+    width: 60%;
+  }
+}
+.shares-br {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 1024px) {
+  .shares-br {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=shares.css.map */
