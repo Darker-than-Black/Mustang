@@ -41,6 +41,7 @@
   border-radius: 1.25em;
   font-size: .85em;
   transition: .5s all;
+  margin: 1em;
 }
 .use-link:hover {
   background-color: var(--blue);

@@ -1,6 +1,9 @@
 .slide {
 	&-title {
 		margin-bottom: .75em;
+		@media (max-width: 460px) {
+			font-size: 2em;
+		}
 	}
 	&-text {
 		font-size: 1.5em;

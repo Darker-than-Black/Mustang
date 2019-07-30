@@ -1,6 +1,11 @@
 .slide-title {
   margin-bottom: .75em;
 }
+@media (max-width: 460px) {
+  .slide-title {
+    font-size: 2em;
+  }
+}
 .slide-text {
   font-size: 1.5em;
   line-height: 1em;
@@ -27,8 +32,7 @@
   position: absolute;
   left: 50%;
   margin-right: -50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   bottom: 1.5em;
 }
 
